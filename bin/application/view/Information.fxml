@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="More Information" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Courier New Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="24.0" layoutY="44.0" prefHeight="200.0" prefWidth="200.0" text="FOSS - Free and Open source software&#10;&#10;(As described on webopedia.com), FOSS programs are those that have licenses that allow users to freely run the program for any purpose, modify the program as they want, and also to freely distribute copies of either the original version or their own modified version. &#10;&#10;&quot;To be able to choose between proprietary software packages is to be able to choose your master. Freedom means not having a master. And in the area of computing, freedom means not using proprietary software.&quot;&#10;-Richard M. Stallman&#10;&#10;&quot;If you want to build an open source project, you can't let your ego stand in the way. You can't rewrite everybody's patches, you can't second-guess everybody, and you have to give people equal control.&quot;&#10;-Rasmus Lerdorf&#10;&#10;&quot;I think, fundamentally, open source does tend to be more stable software. It's the right way to do things.&quot;&#10;-Linus Torvalds&#10;&#10;“If programmers deserve to be rewarded for creating innovative programs, by the same token they deserve to be punished if they restrict the use of these programs.”&#10;-Richard M. Stallman&#10;&#10;Useful links:&#10;&#10;To learn more about FOSS, &#10;https://opensource.org/faq&#10;https://opensource.com/resources/what-open-source&#10;&#10;To find out about the debate surrounding free software vs open source software and the ambiguity and misunderstandings regarding them, see&#10;http://www.gnu.org/philosophy/free-software-for-freedom.en.html&#10;&#10;and many others...&#10;&#10;----------------------------------------------&#10;&#10;This quiz program on FOSS was originally created by Owen Leong for the Google Code-in contest 2015, tasking students to work on Open Source Projects." wrapText="true" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0" />
+   </children>
+</AnchorPane>
