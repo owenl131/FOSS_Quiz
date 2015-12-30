@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.SummaryController">
+   <children>
+      <Label layoutX="39.0" layoutY="42.0" text="Summary Page" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Courier New Bold" size="36.0" />
+         </font></Label>
+      <Text fx:id="score" fill="WHITE" layoutX="39.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your final score is a/b (x%)" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="120.0">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font></Text>
+      <Text fx:id="conclusion" fill="WHITE" layoutX="39.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To conclude..." wrappingWidth="700.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="170.0">
+         <font>
+            <Font name="Nirmala UI" size="16.0" />
+         </font></Text>
+      <Button layoutX="39.0" layoutY="539.0" mnemonicParsing="false" onAction="#toMenu" text="Back to Menu" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="Courier New" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
